@@ -5,6 +5,7 @@ session_unset();
 session_destroy();
 echo "<br> You have been logged out";
 ?>
+
 <!-- ***************** -->
 <?php
 // Start the session and get the data
@@ -18,6 +19,7 @@ else{
     echo "Please login to continue";
 }
 ?>
+
 <!-- ****************** -->
 <?php
 // What is a session?
